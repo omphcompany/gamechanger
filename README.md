@@ -140,9 +140,10 @@ pip install -r requirements.txt
 ```
 
 ### 4. Configure API Key
-Create a new file named `.env` in the root of the project directory. This file will securely store your Google API key.
+You can provide your Google API key directly in the app interface (recommended) or via an optional `.env` file.
 
-Add the following line to the `.env` file, replacing `your_api_key_here` with your actual key:
+- In-app: Run the app and enter your key in the left sidebar under "API Key".
+- Optional fallback: Create a `.env` file in the project root with the following content:
 
 ```
 GOOGLE_API_KEY=your_api_key_here
